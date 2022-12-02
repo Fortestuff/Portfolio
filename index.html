@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>Bootstrap-test</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="/src/img/logo.svg" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active me-5" aria-current="page" href="#">Главная</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Ссылка</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Выпадающий список
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Действие</a></li>
+              <li><a class="dropdown-item" href="#">Другое действие</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Отключенная</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
+          <button class="btn btn-outline-success" type="submit">Поиск</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  
+  <div id="carouselExampleIndicators" data-bs-interval="1000" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="content">
+          <h1>Hello world!</h1>
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, necessitatibus rerum ullam eum sapiente accusantium nisi autem expedita iste porro harum eos. A minima obcaecati fuga officiis, voluptate labore inventore!
+          </p>
+          <button type="button" class="btn btn-outline-primary">Sing up!</button>
+        </div>
+        <div class="overlay"></div>
+        <img src="src/img/Карточка-1.jpg" class="d-block w-100" alt="...">
+      </div>
+
+      <div class="carousel-item">
+        <div class="content">
+          <h1>Hello world!</h1>
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, necessitatibus rerum ullam eum sapiente accusantium nisi autem expedita iste porro harum eos. A minima obcaecati fuga officiis, voluptate labore inventore!
+          </p>
+          <button type="button" class="btn btn-outline-primary">Sing up!</button>
+        </div>
+        <div class="overlay"></div>
+        <img src="src/img/Карточка-2.jpg" class="d-block w-100" alt="...">
+      </div>
+
+      <div class="carousel-item">
+        <div class="content">
+          <h1>Hello world!</h1>
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, necessitatibus rerum ullam eum sapiente accusantium nisi autem expedita iste porro harum eos. A minima obcaecati fuga officiis, voluptate labore inventore!
+          </p>
+          <button type="button" class="btn btn-outline-primary">Sing up!</button>
+        </div>
+        <div class="overlay"></div>
+        <img src="src/img/Карточка-3.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Предыдущий</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <i class="bi bi-xbox"></i>
+      <span class="visually-hidden">Следующий</span>
+    </button>
+  </div>
+
+
+  <figure class="text-center">
+    <blockquote class="blockquote">
+      <p>Известная цитата, содержащаяся в элементе цитаты.</p>
+    </blockquote>
+    <figcaption class="blockquote-footer">
+      Кто-то, известный в <cite title="Source Title">названии источника</cite>
+    </figcaption>
+  </figure>
+
+
+
+  <div class="container text-center">
+    <div class="row">
+
+      <div class="wrapper1 col-12 col-md-6 col-lg-4">
+        <div class="card " >
+          <img src="src/img/1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карточки.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrapper2 col-12 col-md-6 col-lg-4">
+        <div class="card ">
+          <img src="src/img/2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карточки.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrapper3 col-12 col-md-6 col-lg-4">
+        <div class="card">
+          <img src="src/img/3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карточки.</p>
+          </div>
+        </div>  
+      </div>
+
+    </div>
+  </div>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
